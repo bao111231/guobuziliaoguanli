@@ -1,1 +1,46 @@
-==== 程序启动 2026/7/29 19:37:17 ====
+==== 程序启动 2026/7/29 19:56:55 ====
+[19:57:30.701] ---- PreviewDragEnter ----
+  SelectedDocument = SNCode
+  GetFormats() 共 5 个:
+    [FileDrop] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\5e365f857f127d01d5b28c3323316a06.jpg]
+    [FileNameW] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\5e365f857f127d01d5b28c3323316a06.jpg]
+    [FileName] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\5e365f857f127d01d5b28c3323316a06.jpg]
+    [UniformResourceLocatorW] present=False type=null value=null
+    [UniformResourceLocator] present=False type=null value=null
+
+[19:57:30.894] ---- PreviewDrop ----
+  SelectedDocument = SNCode
+  GetFormats() 共 5 个:
+    [FileDrop] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\5e365f857f127d01d5b28c3323316a06.jpg]
+    [FileNameW] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\5e365f857f127d01d5b28c3323316a06.jpg]
+    [FileName] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\5e365f857f127d01d5b28c3323316a06.jpg]
+    [UniformResourceLocatorW] present=False type=null value=null
+    [UniformResourceLocator] present=False type=null value=null
+
+[19:57:33.289] ---- PreviewDragEnter ----
+  SelectedDocument = SNCode
+  GetFormats() 共 5 个:
+    [FileDrop] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [FileNameW] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [FileName] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [UniformResourceLocatorW] present=False type=null value=null
+    [UniformResourceLocator] present=False type=null value=null
+
+[19:57:33.294] ---- PreviewDragEnter ----
+  SelectedDocument = SNCode
+  GetFormats() 共 5 个:
+    [FileDrop] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [FileNameW] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [FileName] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [UniformResourceLocatorW] present=False type=null value=null
+    [UniformResourceLocator] present=False type=null value=null
+
+[19:57:33.569] ---- PreviewDrop ----
+  SelectedDocument = SNCode
+  GetFormats() 共 5 个:
+    [FileDrop] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [FileNameW] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [FileName] present=True type=System.String[] value=string[1] = [C:\Users\bao\xwechat_files\wxid_sjkptnifc4m222_3327\temp\RWTemp\2026-07\e2afbca664371a5b81ad42fa0dd29a44\d26ac82cf3eb06038d05495272aa756f.jpg]
+    [UniformResourceLocatorW] present=False type=null value=null
+    [UniformResourceLocator] present=False type=null value=null
+

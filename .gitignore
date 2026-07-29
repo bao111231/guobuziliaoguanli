@@ -1,0 +1,27 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+dragdrop_debug.log
+
+# IDE
+.trae/
+.vs/
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temp
+temp_storage/

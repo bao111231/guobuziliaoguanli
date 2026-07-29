@@ -27,12 +27,12 @@ GET /api/folders
 {
   "folders": [
     {
-      "name": "张三13800138000",
-      "originalName": "张三13800138000",
+      "name": "客户A13800000000",
+      "originalName": "客户A13800000000",
       "creationTime": "2026-07-20 14:30",
       "imageCount": 4,
       "isMarked": false,
-      "pathEncoded": "5byg5LiJMTM4MDAxMzgwMDA=",
+      "pathEncoded": "56e65YGTQTEzODAwMDAwMDAw",
       "images": [
         {
           "name": "发票01.jpg",
@@ -47,12 +47,12 @@ GET /api/folders
       ]
     },
     {
-      "name": "李四13900139000已上传",
-      "originalName": "李四13900139000",
+      "name": "客户B13900000000已上传",
+      "originalName": "客户B13900000000",
       "creationTime": "2026-07-21 09:15",
       "imageCount": 4,
       "isMarked": true,
-      "pathEncoded": "5p2O5ZubMTM5MDAxMzkwMDDlt6XkuIrkuIrlupQ=",
+      "pathEncoded": "56e65YGTQkMxMzkwMDAwMDAw5LiW55WM55qE562+",
       "images": [...]
     }
   ]

@@ -10,7 +10,15 @@ except ImportError:
     os.system(f"{sys.executable} -m pip install pdfplumber -q")
     import pdfplumber
 
-downloads_dir = r"C:\Users\bao\Downloads"
+if len(sys.argv) > 1:
+    downloads_dir = sys.argv[1]
+else:
+    downloads_dir = input("请输入发票文件所在目录: ").strip().strip('"')
+
+if not os.path.isdir(downloads_dir):
+    print(f"错误：目录 {downloads_dir} 不存在")
+    sys.exit(1)
+
 output_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "invoice_date_verification.txt")
 
 order_pattern = re.compile(r'(\d{2}\d{4}\d{4}\d+)')
