@@ -1,0 +1,81 @@
+<Window x:Class="GuoBuZiLiaoGuanLi.TempFilePickerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="从暂存选择文件" Height="700" Width="1000"
+        Background="#F5F7FA"
+        WindowStartupLocation="CenterOwner"
+        PreviewKeyDown="Window_PreviewKeyDown">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,12">
+            <TextBlock Text="选择要导入的文件" FontSize="20" FontWeight="Bold" Foreground="#2D3748" Margin="0,0,0,8" />
+            <TextBlock Text="单击选择/取消，双击预览大图，按住 Ctrl 多选，按住 Shift 范围选" FontSize="13" Foreground="#718096" />
+        </StackPanel>
+
+        <Border Grid.Row="1" Background="White" CornerRadius="12" Padding="12">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="#F1F5F9" CornerRadius="8" Padding="10" Margin="0,0,0,12">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="🔍" FontSize="16" VerticalAlignment="Center" Margin="0,0,8,0" />
+                        <TextBox x:Name="SearchBox" Grid.Column="1" FontSize="14" VerticalAlignment="Center"
+                                 Background="Transparent" BorderThickness="0"
+                                 TextChanged="SearchBox_TextChanged"
+                                 CaretBrush="#4A5568" Foreground="#2D3748">
+                            <TextBox.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="0" />
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+                        <TextBlock x:Name="SearchPlaceholder" Grid.Column="1" Text="搜索文件名..." 
+                                   FontSize="14" Foreground="#A0AEC0" VerticalAlignment="Center"
+                                   IsHitTestVisible="False" Margin="2,0,0,0" />
+                        <Button x:Name="ClearSearchButton" Grid.Column="2" Content="✕" FontSize="12"
+                                Background="Transparent" BorderThickness="0" Foreground="#A0AEC0"
+                                Padding="4" VerticalAlignment="Center" Cursor="Hand"
+                                Click="ClearSearchButton_Click" Visibility="Collapsed" />
+                    </Grid>
+                </Border>
+
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" x:Name="ScrollViewer">
+                    <UniformGrid x:Name="FilesGrid" Columns="4" Margin="0,0,0,12" />
+                </ScrollViewer>
+
+                <Border Grid.Row="2" Background="#F7FAFC" CornerRadius="8" Padding="12">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock x:Name="SelectionInfo" FontSize="13" Foreground="#4A5568" Text="已选择 0 个文件" />
+                            <TextBlock x:Name="TotalInfo" FontSize="12" Foreground="#A0AEC0" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal">
+                            <Button x:Name="SelectAllButton" Content="全选" Background="#6C757D" Margin="0,0,8,0" Padding="16,8" Click="SelectAllButton_Click" />
+                            <Button x:Name="ClearSelectionButton" Content="清空选择" Background="#6C757D" Margin="0,0,8,0" Padding="16,8" Click="ClearSelectionButton_Click" />
+                            <Button x:Name="CancelButton" Content="取消" Background="#6C757D" Margin="0,0,8,0" Padding="20,8" Click="CancelButton_Click" />
+                            <Button x:Name="ImportButton" Content="✓ 导入选中" Background="#28A745" Padding="20,8" Click="ImportButton_Click" FontWeight="SemiBold" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
