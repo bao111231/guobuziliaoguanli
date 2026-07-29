@@ -1,4 +1,18 @@
-# 国补资料管理系统 - 使用教程
+# 国补资料管理系统
+
+[![下载](https://img.shields.io/badge/下载-最新版-blue)](https://github.com/bao111231/guobuziliaoguanli/releases/latest)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/download/dotnet/8.0)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+**国补资料管理系统** 是一款面向个人和小型企业的资料扫描与归档管理工具，支持扫描仪批量扫描、手机 WiFi 传输、暂存区管理、日期统计导出等功能。
+
+## 📥 下载
+
+👉 **[点击前往 Releases 页面下载最新版](https://github.com/bao111231/guobuziliaoguanli/releases/latest)**
+
+下载 `GuoBuZiLiaoGuanLi.exe` 单文件即可，无需安装。首次使用请先完成下方的环境准备。
+
+---
 
 ## 一、安装准备
 
@@ -24,7 +38,9 @@
 
 ### 3. 获取程序
 
-将 `GuoBuZiLiaoGuanLi.exe` 复制到电脑任意位置即可，无需安装。
+请从 GitHub Releases 页面下载：[https://github.com/bao111231/guobuziliaoguanli/releases/latest](https://github.com/bao111231/guobuziliaoguanli/releases/latest)
+
+下载 `GuoBuZiLiaoGuanLi.exe` 后复制到电脑任意位置即可，无需安装。
 
 ---
 
